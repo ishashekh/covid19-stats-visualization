@@ -7,7 +7,7 @@ It demonstrates a full **data analyst workflow**: cleaning, descriptive statisti
 
 ## 🚀 Steps Covered
 1. **Data Collection** – Load dataset from OWID  
-2. **Data Understanding** – Explore columns, missing values, anomalies  
+2. **Data Understanding** – Explore columns, missing values, and anomalies  
 3. **Data Cleaning** – Fix negatives, select relevant columns, drop nulls  
 4. **Data Preparation** – Filter by country (default: Canada), sort by date  
 5. **Descriptive Statistics** – Mean, median, mode, std, percentiles  
@@ -24,8 +24,8 @@ It demonstrates a full **data analyst workflow**: cleaning, descriptive statisti
 Clone the repo and create a virtual environment:
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/ishahiteshbhaishekh/covid19-stats-visualization.git
+cd covid19-stats-visualization
 
 python -m venv .venv
 source .venv/bin/activate   # mac/linux
